@@ -1,1 +1,2 @@
 import './nicknames';
+import './fixedNumbers';
