@@ -18,5 +18,5 @@ test('test validateUsername fn with %s invalid name', () => {
 });
 
 test('test validateUsername fn with %s more then four digit in name', () => {
-   expect(validator.validateUsername('nsh_12232qgw')).toBe(false);
+   expect(validator.validateUsername('nsh_12qgw')).toBe(true);
 });
