@@ -1,1 +1,1 @@
-import './regexp';
+import './nicknames';
