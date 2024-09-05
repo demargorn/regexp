@@ -7,7 +7,7 @@ class Validator {
          return false;
       }
 
-      const regex = /^[\w\d]{1,}[\w\d\s_-]*$/;
+      const regex = /^[\w\d]{1}[\w\d\s_-]*$/;
 
       if (!regex.test(name)) {
          return false;
