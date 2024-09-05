@@ -14,7 +14,7 @@ class Validator {
       }
 
       // Проверка на наличие подряд более трех цифр
-      const digitSequence = name.match(/(\d{4,})/g);
+      const digitSequence = name.match(/(\d{4})/g);
 
       if (digitSequence && digitSequence.length > 0) {
          return false;
